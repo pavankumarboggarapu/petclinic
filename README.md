@@ -14,7 +14,7 @@ This repository contains everything you need to complete the lab except for the 
 # Prerequisites
 
 1. [signup](https://github.com/signup) for a free GitHub Account
-2. [create](https://pavankumarb.jfrog.io/ui/login) a JFrog Access Token
+2. [create](https://pavankumarb.jfrog.io/ui/admin/configuration/security/access_tokens) a JFrog Access Token
 3. Create Docker file 
 
 # Clone repository
