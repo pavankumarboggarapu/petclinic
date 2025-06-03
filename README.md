@@ -88,7 +88,7 @@ jobs:
       - name: Publish Build info With JFrog CLI
         env:
           # Generated and maintained by GitHub
-          JFROG_CLI_BUILD_NAME: jfrog-docker-build-example
+          JFROG_CLI_BUILD_NAME: petclinic
           # JFrog organization secret
           JFROG_CLI_BUILD_NUMBER : ${{ github.run_number }}
         run: |
