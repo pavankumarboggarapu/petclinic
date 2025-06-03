@@ -80,7 +80,7 @@ jobs:
 
       - name: Build Tag and Push Docker Image
         env:
-          IMAGE_NAME: pavankumarb.jfrog.io/pkumarb-docker/jfrog-docker-example-image:${{ github.run_number }}
+          IMAGE_NAME: pavankumarb.jfrog.io/petclinic-docker/petclinic:${{ github.run_number }}
         run: |
           jf docker build -t $IMAGE_NAME .
           jf docker push $IMAGE_NAME
